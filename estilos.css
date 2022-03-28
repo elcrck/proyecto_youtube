@@ -1,0 +1,42 @@
+body {
+  background: #b2b2b2;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px 15px;
+  border: 2px solid #000;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  background: #fff;
+  max-width: 700px;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px 15px;
+  position: absolute;
+  background: #3d7da3;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.btn_yes {
+  left: 100px;
+}
+
+.btn_no {
+  right: 100px;
+}
+
+@media screen and (max-width: 465px) {
+  .btn_yes {
+    left: 20px;
+  }
+
+  .btn_no {
+    right: 20px;
+  }
+}
